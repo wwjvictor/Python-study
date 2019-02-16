@@ -1,17 +1,9 @@
-﻿import turtle
+import turtle
 import time
-
-'''
-作者：pk哥
-公众号：brucepk
-日期：2018/09/02
-代码解析详见公众号。
-如疑问或需转载，请联系微信号：dyw520520，备注来意，谢谢。
-'''
 
 
 turtle.setup(width=0.9, height=0.9)
-# width, height,输入宽和高为整数时, 表示像素; 为小数时, 表示占据电脑屏幕的比例
+# width, height,输入宽和高为整数时, 表示像素; 
 turtle.bgcolor("red")           # 画布背景颜色
 turtle.fillcolor("yellow")      # 绘制图形的填充颜色
 turtle.color('yellow')          # 绘制图形颜色
