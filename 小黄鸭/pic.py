@@ -1,21 +1,11 @@
 import imageio
 import cv2
 
-'''
-作者：pk哥
-公众号：brucepk
-日期：2018/11/4
-代码解析详见微信公众号「brucepk」。
+originalPic = 'D:\\Buckup\\桌面\\y1.jpg'      #
+dealPic = 'D:\\Buckup\\桌面\\y2.jpg'            # 
 
-如有疑问或需转载，请加微信号：dyw520520，备注来意，谢谢。
-如需加入python技术交流群，请加我微信，备注「进群」，我拉你进群，一起讨论交流，共同成长。
-'''
-
-originalPic = 'D:\\Buckup\\桌面\\y1.jpg'      # 原始动态图存放路径
-dealPic = 'D:\\Buckup\\桌面\\y2.jpg'            # 处理后的字符动态图存放路径和名称
-
-string = '''$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "'''    # 灰度与字符的映射
-pics = imageio.mimread(originalPic)    # 读取动态图，把动态图转化为一帧一帧的图片
+string = '''$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'. "'''   
+pics = imageio.mimread(originalPic)    #
 
 A = []
 # 把上面的每帧图片转化为字符画，并保存在A列表里
